@@ -1,0 +1,39 @@
+@use "global" as g;
+
+.home {
+  min-height: calc(100vh - 60px);
+  padding: 60px 20px;
+  text-align: center;
+
+  .logo {
+    max-width: 368px;
+    margin: 0 auto 84px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .title {
+    font: {
+      family: g.$fontOswald;
+      size: clamp(3rem, 4.4vw, 6.4rem);
+    }
+    line-height: 94.85px;
+    margin: 0 0 50px;
+  }
+
+  .link-button {
+    display: inline-block;
+    width: fit-content;
+    font: {
+      family: g.$fontOswald;
+      size: clamp(1.8rem, 1.6vw, 2.4rem);
+    }
+    color: g.$colFFF;
+    line-height: 35.57px;
+    padding: 10px 32px 14px;
+    border-radius: 5px;
+    background-color: g.$col483967;
+  }
+}

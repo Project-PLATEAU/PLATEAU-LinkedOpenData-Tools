@@ -1,0 +1,11 @@
+@use "variables" as v;
+
+/*--
+  media queries
+  - $breakpoint: _variables.scssの$breakpointsからキーを選んで入力。デフォルトはsp
+--*/
+@mixin media($breakpoint: sp) {
+  @media #{map-get(v.$breakpoints, $breakpoint)} {
+    @content;
+  }
+}

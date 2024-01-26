@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Noto+Sans+JP:wght@400;700&family=Oswald:wght@300;400;500&display=swap');
+
+/*--
+  font family
+--*/
+$fontKoulen: 'Koulen', cursive;
+$fontNotoSansJp: 'Noto Sans JP', sans-serif;
+$fontOswald: 'Oswald', sans-serif;
+
+/*--
+  font weight
+--*/
+$fontNotoSansJpRegular: 400;
+$fontNotoSansJpBold: 700;
+
+$fontOswald300: 300;
+$fontOswald400: 400;
+$fontOswald500: 500;
+
+/*--
+  break points
+--*/
+$breakpoints: (
+        'pc': 'screen and (min-width: 768px)',
+        'tb': 'screen and (min-width: 768px) and (max-width: 1024px)',
+        'sp': 'screen and (max-width: 767px)',
+) !default;
+
+$col3E56D3: #3E56D3;
+$colAF8EC6: #AF8EC6;
+$col6E3ED3: #6E3ED3;
+$col6740CB: #6740CB;
+$col483967: #483967;
+$col463A64: #463A64;
+$colE4E4E4: #E4E4E4;
+$colD9D9D9: #D9D9D9;
+$col000:    #000;
+$colFFF:    #fff;

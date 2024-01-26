@@ -1,0 +1,75 @@
+@use "global" as g;
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: g.$colFFF;
+  * {
+    font: {
+      family: g.$fontNotoSansJp;
+      size: 1.6rem;
+    }
+    color: g.$col000;
+    word-break: break-all;
+    box-sizing: border-box;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
+.loading {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  animation: spin .8s linear 0s infinite;
+  z-index: 100;
+  path {
+    fill: g.$col463A64;
+  }
+}
+
+.c-main {
+  display: flex;
+  gap: 40px;
+  max-width: 1440px;
+  padding: 40px 0;
+  margin-inline: auto;
+
+  @include g.media(sp) {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 25.5%;
+    max-width: 368px;
+    margin: -30px 0 0;
+    &__image {
+      width: 100%;
+      height: auto;
+    }
+    @include g.media(sp) {
+      margin: 0 auto;
+    }
+  }
+
+  &__result {
+    position: relative;
+    width: 74.4%;
+    min-height: calc(100vh - 80px);
+    padding: 0 72px;
+    border-left: 1px solid g.$colE4E4E4;
+    @include g.media(sp) {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+}

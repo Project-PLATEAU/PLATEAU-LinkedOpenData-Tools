@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "plateau": "https://lod.geospatial.jp/resource/",
+        "pv": "https://lod.geospatial.jp/vocabulary/pv#",
+        "sac": "http://data.e-stat.go.jp/lod/sac/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@type": "pv:Building",
+    "@id": "plateau:bldg_7b561f02-8a48-40b4-87fe-268b6a2f2ecb",
+    "pv:usage": {
+        "@id": "https://lod.geospatial.jp/codelists/Building_usage#441"
+    },
+    "pv:yearOfConstruction": {
+        "@type": "xsd:decimal",
+        "@value": 1989
+    },
+    "pv:storeysAboveGround": {
+        "@type": "xsd:decimal",
+        "@value": 2
+    },
+    "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:name": "gml ID",
+        "schema:value": "bldg_7b561f02-8a48-40b4-87fe-268b6a2f2ecb"
+    },
+    "pv:measureHeight": {
+        "@type": "pv:MeasuredHeight",
+        "schema:unitCode": {
+            "@id": "estat-attribute-code:unitMeasure-meter"
+        },
+        "schema:value": {
+            "@type": "xsd:double",
+            "@value": 10.8138
+        }
+    },
+    "schema:geo": {
+        "@type": "schema:GeoCoordinates",
+        "schema:latitude": {
+            "@value": 137.52773640049793,
+            "@type": "xsd:double"
+        },
+        "schema:longitude": {
+            "@value": 34.683363990500496,
+            "@type": "xsd:double"
+        },
+        "schema:elevation": {
+            "@type": "xsd:double",
+            "@value": 10.8138
+        }
+    },
+    "pv:location": {
+        "@type": "pv:Location",
+        "pv:prefecture": {
+            "@id": "https://lod.geospatial.jp/codelists/Common_localPublicAuthorities#22"
+        },
+        "pv:city": {
+            "@id": "https://lod.geospatial.jp/codelists/Common_localPublicAuthorities#22221"
+        },
+        "pv:standardAreaCode": {
+            "@id": "http://data.e-stat.go.jp/lod/sac/C22221"
+        },
+        "schema:address": "静岡県湖西市"
+    },
+    "pv:realEstateIDAttribute": {
+        "@id": "plateau:real-estate-id-bldg_7b561f02-8a48-40b4-87fe-268b6a2f2ecb"
+    },
+    "pv:loof0FootPrint": "137.52764429250652 34.68339687169642, 137.5276620463302 34.68330833529016, 137.5278285084893 34.68333111829167, 137.5278107549422 34.683419645710835, 137.52764429250652 34.68339687169642"
+}

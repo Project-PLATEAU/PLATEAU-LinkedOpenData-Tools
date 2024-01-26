@@ -1,0 +1,21 @@
+@use "sass:math";
+
+/*--
+  line-height
+  - XDの行送り / フォントサイズ
+--*/
+@function lineHeight ($fontSize, $lineHeight) {
+  @return calc(#{$lineHeight} / #{$fontSize});
+}
+
+/*--
+  letter-spacing
+  - XDのAV / 1000
+--*/
+@function letterSpacing ($letterSpacingValue, $isMinus: false) {
+  @if $isMinus {
+    @return -(math.div($letterSpacingValue, 1000) * 1em);
+  } @else {
+    @return math.div($letterSpacingValue, 1000) * 1em;
+  }
+}

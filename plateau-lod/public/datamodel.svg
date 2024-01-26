@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:xl="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-628 100 2497 1941" width="2497" height="1941">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Hiragino Sans" font-size="16" panose-1="2 11 3 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="545" cap-height="766" ascent="880.0018" descent="-120.00024" font-weight="300">
+      <font-face-src>
+        <font-face-name name="HiraginoSans-W3"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.4\n2023-12-04 09:27:24 +0000</metadata>
+  <g id="キャンバス______1" stroke-opacity="1" fill="none" stroke-dasharray="none" fill-opacity="1" stroke="none">
+    <title>キャンバス 1</title>
+    <rect fill="white" x="-628" y="100" width="2497" height="1941"/>
+    <g id="キャンバス______1_レイヤー_1">
+      <title>レイヤー 1</title>
+      <g id="Graphic_2">
+        <ellipse cx="680.9207" cy="860" rx="148.500237288432" ry="58.00009267831" fill="#6b7ca5"/>
+        <ellipse cx="680.9207" cy="860" rx="148.500237288432" ry="58.00009267831" stroke="#283450" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(567.1207 840.5359)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="white" x="2.992003" y="16">plateau:bldg_9554bef1-3d9d-</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="white" x="18.040003" y="35.46411">4791-a454-18548664e493</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <ellipse cx="680.9207" cy="429.9747" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="680.9207" cy="429.9747" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(567.1207 420.7507)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="73.792" y="15">pv:Building</tspan>
+        </text>
+      </g>
+      <g id="Line_4">
+        <line x1="680.9207" y1="800.5" x2="680.9207" y2="497.8747" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_5">
+        <rect x="671.3207" y="628.9163" width="19.2" height="34.000016" fill="white"/>
+        <text transform="translate(676.3207 633.9163)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="36326497e-20" y="14">a</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <rect x="1198" y="494.41723" width="230" height="87" fill="white"/>
+        <rect x="1198" y="494.41723" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1203 528.69323)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="61.376" y="15">“2023-03-22”</tspan>
+        </text>
+      </g>
+      <g id="Line_10">
+        <line x1="773.1963" y1="812.98" x2="1218.8115" y2="585.912" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_11">
+        <rect x="928.2117" y="678.496" width="151.088" height="34.000016" fill="white"/>
+        <text transform="translate(933.2117 683.496)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">core:creationDate</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <ellipse cx="987.9346" cy="285" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="987.9346" cy="285" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(874.1346 266.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="26.384003" y="15">https://lod.geospatial.jp/</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="5.488003" y="33.448">codelists/Building_class#3001</tspan>
+        </text>
+      </g>
+      <g id="Line_14">
+        <line x1="712.0101" y1="801.7734" x2="952.952" y2="350.51807" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_15">
+        <rect x="790.5691" y="555.39994" width="87.824" height="34.000016" fill="white"/>
+        <text transform="translate(795.5691 560.39994)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="2629008e-19" y="14">bldg:class</tspan>
+        </text>
+      </g>
+      <g id="Graphic_16">
+        <ellipse cx="1253.905" cy="382.69144" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="1253.905" cy="382.69144" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_17">
+        <line x1="745.4761" y1="806.2239" x2="1183.2405" y2="441.5565" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_18">
+        <rect x="874.5119" y="607.1155" width="179.152" height="34.000016" fill="white"/>
+        <text transform="translate(879.5119 612.1155)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">bldg:measuredHeight</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <ellipse cx="1267.8427" cy="158.98802" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="1267.8427" cy="158.98802" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1154.0427 149.76402)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="43.856003" y="15">pv:MeasuredHeight</tspan>
+        </text>
+      </g>
+      <g id="Line_20">
+        <line x1="1257.5176" y1="324.70847" x2="1263.6145" y2="226.85183" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_21">
+        <rect x="1251.2029" y="254.97897" width="19.2" height="34.000016" fill="white"/>
+        <text transform="translate(1256.2029 259.97897)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="36326497e-20" y="14">a</tspan>
+        </text>
+      </g>
+      <g id="Graphic_22">
+        <ellipse cx="1639.5" cy="185" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="1639.5" cy="185" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1525.7 166.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="60.16" y="15">estat-attribute-</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="25.920003" y="33.448">code:unitMeasure-meter</tspan>
+        </text>
+      </g>
+      <g id="Line_23">
+        <line x1="1343.9056" y1="336.54886" x2="1540.6898" y2="235.65922" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_24">
+        <rect x="1372.0593" y="267.49542" width="146.752" height="34.000016" fill="white"/>
+        <text transform="translate(1377.0593 272.49542)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="19895197e-20" y="14">schema:unitCode</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25">
+        <rect x="1638" y="300.4101" width="230" height="87" fill="white"/>
+        <rect x="1638" y="300.4101" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1643 334.6861)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="101.104" y="15">15</tspan>
+        </text>
+      </g>
+      <g id="Line_26">
+        <line x1="1399.566" y1="371.3731" x2="1628.1298" y2="353.61293" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_27">
+        <rect x="1457.8133" y="345.34153" width="115.968" height="34.000016" fill="white"/>
+        <text transform="translate(1462.8133 350.34153)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="37658765e-20" y="14">schema:value</tspan>
+        </text>
+      </g>
+      <g id="Graphic_34">
+        <ellipse cx="276.86912" cy="485" rx="148.500237288432" ry="58.0000926783099" fill="white"/>
+        <ellipse cx="276.86912" cy="485" rx="148.500237288432" ry="58.0000926783099" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_35">
+        <line x1="621.9159" y1="805.2376" x2="341.7413" y2="545.2078" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_36">
+        <rect x="371.21622" y="643.6809" width="189.888" height="34.000016" fill="white"/>
+        <text transform="translate(376.21622 648.6809)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">uro:buildingIDAttribute</tspan>
+        </text>
+      </g>
+      <g id="Graphic_37">
+        <ellipse cx="276.86912" cy="254.39654" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="276.86912" cy="254.39654" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(163.06912 245.17254)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="32.600003" y="15">uro:BuildingIDAttribute</tspan>
+        </text>
+      </g>
+      <g id="Line_38">
+        <line x1="276.86912" y1="426.99997" x2="276.86912" y2="322.29657" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_39">
+        <rect x="267.26912" y="353.4101" width="19.2" height="34.000016" fill="white"/>
+        <text transform="translate(272.26912 358.4101)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="36326497e-20" y="14">a</tspan>
+        </text>
+      </g>
+      <g id="Graphic_40">
+        <rect x="-222" y="216.6439" width="230" height="87" fill="white"/>
+        <rect x="-222" y="216.6439" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-217 250.9199)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="32.176" y="15">“37201-bldg-262606”</tspan>
+        </text>
+      </g>
+      <g id="Line_41">
+        <line x1="194.471" y1="436.73427" x2="-24.195442" y2="308.6477" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_42">
+        <ellipse cx="-202.5" cy="405.58984" rx="148.500237288432" ry="58.0000926783099" fill="white"/>
+        <ellipse cx="-202.5" cy="405.58984" rx="148.500237288432" ry="58.0000926783099" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-316.3 368.69385)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="26.384003" y="15">https://lod.geospatial.jp/</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="79.136" y="33.448">codelists/</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="3.560003" y="51.895996">Common_localPublicAuthoritie</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="96.456" y="70.34399">s#37</tspan>
+        </text>
+      </g>
+      <g id="Graphic_43">
+        <ellipse cx="-140.5" cy="576" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="-140.5" cy="576" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-254.3 539.104)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="26.384003" y="15">https://lod.geospatial.jp/</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="79.136" y="33.448">codelists/</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="3.560003" y="51.895996">Common_localPublicAuthoritie</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="83.112" y="70.34399">s#37201</tspan>
+        </text>
+      </g>
+      <g id="Line_44">
+        <line x1="140.12128" y1="462.34696" x2="-55.98526" y2="429.8608" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_45">
+        <line x1="147.17152" y1="513.2783" x2="-1.1296376" y2="545.61274" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_46">
+        <rect x="-22.638192" y="428.7404" width="125.024" height="34.000016" fill="white"/>
+        <text transform="translate(-17.63819 433.7404)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="6252776e-19" y="14">uro:prefecture</tspan>
+        </text>
+      </g>
+      <g id="Graphic_47">
+        <rect x="41.595443" y="511.79697" width="68.8" height="34.000016" fill="white"/>
+        <text transform="translate(46.59544 516.79697)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">uro:city</tspan>
+        </text>
+      </g>
+      <g id="Graphic_49">
+        <rect x="28.232525" y="357.13825" width="118.752" height="34.000016" fill="white"/>
+        <text transform="translate(33.232525 362.13825)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="2060574e-19" y="14">uro:buildingID</tspan>
+        </text>
+      </g>
+      <g id="Graphic_50">
+        <ellipse cx="20.432487" cy="795" rx="148.500237288432" ry="58.0000926783099" fill="white"/>
+        <ellipse cx="20.432487" cy="795" rx="148.500237288432" ry="58.0000926783099" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_51">
+        <rect x="-627" y="816.5" width="230" height="87" fill="white"/>
+        <rect x="-627" y="816.5" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-622 850.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="36.608" y="15">133.9989003754713</tspan>
+        </text>
+      </g>
+      <g id="Graphic_52">
+        <rect x="-588" y="948.2348" width="230" height="87" fill="white"/>
+        <rect x="-588" y="948.2348" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-583 982.5108)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="85.536" y="15">99.948</tspan>
+        </text>
+      </g>
+      <g id="Graphic_53">
+        <rect x="-627" y="688.41016" width="230" height="87" fill="white"/>
+        <rect x="-627" y="688.41016" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-622 722.6862)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="36.608" y="15">34.22376061983865</tspan>
+        </text>
+      </g>
+      <g id="Graphic_54">
+        <ellipse cx="-465.5" cy="576" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="-465.5" cy="576" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-579.3 566.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="24.896003" y="15">schema:GeoCoordinates</tspan>
+        </text>
+      </g>
+      <g id="Line_55">
+        <line x1="-76.82633" y1="751.1674" x2="-359.21546" y2="623.9003" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_56">
+        <line x1="535.2601" y1="845.6652" x2="174.3061" y2="810.143" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_57">
+        <line x1="-121.69958" y1="778.1583" x2="-387.1688" y2="746.7019" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_58">
+        <line x1="-121.33383" y1="812.307" x2="-387.17296" y2="844.761" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_59">
+        <line x1="-83.48519" y1="836.4327" x2="-354.7012" y2="944.5682" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_60">
+        <rect x="237.22945" y="804.4883" width="104.72" height="34.000016" fill="white"/>
+        <text transform="translate(242.22945 809.4883)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="5755396e-19" y="14">schema:geo</tspan>
+        </text>
+      </g>
+      <g id="Graphic_61">
+        <rect x="-224.66085" y="671.8679" width="19.2" height="34.000016" fill="white"/>
+        <text transform="translate(-219.66085 676.8679)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="36326497e-20" y="14">a</tspan>
+        </text>
+      </g>
+      <g id="Graphic_62">
+        <rect x="-330.10737" y="744.3995" width="133.952" height="34.000016" fill="white"/>
+        <text transform="translate(-325.10737 749.3995)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="5684342e-19" y="14">schema:latitude</tspan>
+        </text>
+      </g>
+      <g id="Graphic_63">
+        <rect x="-342.79215" y="813.2708" width="148.624" height="34.000016" fill="white"/>
+        <text transform="translate(-337.79216 818.2708)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">schema:longitude</tspan>
+        </text>
+      </g>
+      <g id="Graphic_64">
+        <rect x="-295.2224" y="874.8565" width="145.456" height="34.000016" fill="white"/>
+        <text transform="translate(-290.2224 879.8565)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">schema:elevation</tspan>
+        </text>
+      </g>
+      <g id="Graphic_65">
+        <ellipse cx="22.964545" cy="986" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="22.964545" cy="986" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_66">
+        <line x1="545.66175" y1="885.9024" x2="166.05927" y2="958.5971" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_67">
+        <ellipse cx="-327.5" cy="1118.2045" rx="148.500237288432" ry="58.0000926783099" fill="white"/>
+        <ellipse cx="-327.5" cy="1118.2045" rx="148.500237288432" ry="58.0000926783099" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-441.3 1108.9805)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="71.864" y="15">pv:Location</tspan>
+        </text>
+      </g>
+      <g id="Line_68">
+        <line x1="-83.8501" y1="1026.2933" x2="-211.4225" y2="1074.417" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_69">
+        <rect x="-160.03058" y="1034.4092" width="19.2" height="34.000016" fill="white"/>
+        <text transform="translate(-155.03058 1039.4092)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="36326497e-20" y="14">a</tspan>
+        </text>
+      </g>
+      <g id="Line_71">
+        <line x1="-19.45998" y1="1041.5944" x2="-202.06966" y2="1280.8915" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_72">
+        <rect x="-245.67357" y="1201.1742" width="182.928" height="34.000016" fill="white"/>
+        <text transform="translate(-240.67358 1206.1742)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">pv:standardAreaCode</tspan>
+        </text>
+      </g>
+      <g id="Graphic_73">
+        <ellipse cx="-250.5" cy="1344.3561" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="-250.5" cy="1344.3561" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-364.3 1335.1321)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="70.968" y="15">sac:C37201</tspan>
+        </text>
+      </g>
+      <g id="Graphic_74">
+        <rect x="-15" y="1189.2492" width="230" height="87" fill="white"/>
+        <rect x="-15" y="1189.2492" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-10 1220.2492)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="55.52" y="15">“香川県高松市</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="15">”</tspan>
+        </text>
+      </g>
+      <g id="Line_75">
+        <line x1="40.939886" y1="1043.5761" x2="83.46889" y2="1179.799" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_76">
+        <rect x="-4.987433" y="1101.1199" width="138.4" height="34.000016" fill="white"/>
+        <text transform="translate(.012564161 1106.1199)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="7247536e-19" y="14">schema:address</tspan>
+        </text>
+      </g>
+      <g id="Line_78">
+        <line x1="577.2124" y1="816.883" x2="300.44565" y2="701.8166" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_79">
+        <rect x="366.1689" y="741.4101" width="140.8" height="34.000016" fill="white"/>
+        <text transform="translate(371.1689 746.4101)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">pv:lod0FootPrint</tspan>
+        </text>
+      </g>
+      <g id="Graphic_80">
+        <rect x="71.67463" y="611.016" width="230" height="87" fill="white"/>
+        <rect x="71.67463" y="611.016" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(76.67463 626.844)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="30.976" y="15">“34.22380549322646,</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="25.488" y="33.448">    133.9988853315704,</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="73.232" y="51.895996">    99.948”</tspan>
+        </text>
+      </g>
+      <g id="Graphic_93">
+        <rect x="305.0918" y="905.8734" width="95.024" height="34.000016" fill="white"/>
+        <text transform="translate(310.0918 910.8734)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="6181722e-19" y="14">pv:location</tspan>
+        </text>
+      </g>
+      <g id="Graphic_94">
+        <ellipse cx="141.00232" cy="1447" rx="148.500237288432" ry="58.0000926783099" fill="white"/>
+        <ellipse cx="141.00232" cy="1447" rx="148.500237288432" ry="58.0000926783099" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(27.202315 1419.328)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="44.160003" y="15">plateau:real-estate-</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="25.008003" y="33.448">id-9554bef1-3d9d-4791-</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="39.824003" y="51.895996">a454-18548664e493</tspan>
+        </text>
+      </g>
+      <g id="Line_95">
+        <line x1="629.47" y1="915.9373" x2="197.9227" y2="1385.1161" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_96">
+        <ellipse cx="-371.5" cy="1650" rx="148.500237288432" ry="58.0000926783099" fill="white"/>
+        <ellipse cx="-371.5" cy="1650" rx="148.500237288432" ry="58.0000926783099" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-485.3 1640.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="23.272003" y="15">uro:RealEstateIDAttribute</tspan>
+        </text>
+      </g>
+      <g id="Line_97">
+        <line x1="36.736855" y1="1488.2991" x2="-258.03028" y2="1605.0551" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_98">
+        <rect x="-128.06751" y="1532.7749" width="19.2" height="34.000016" fill="white"/>
+        <text transform="translate(-123.06751 1537.7749)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="36326497e-20" y="14">a</tspan>
+        </text>
+      </g>
+      <g id="Graphic_99">
+        <rect x="599.4207" y="1558.9528" width="230" height="87" fill="white"/>
+        <rect x="599.4207" y="1558.9528" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(604.4207 1590.4528)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="12.056" y="14">&quot;4703000378517-0000&quot;</tspan>
+        </text>
+      </g>
+      <g id="Graphic_100">
+        <rect x="547" y="1748.4343" width="230" height="87" fill="white"/>
+        <rect x="547" y="1748.4343" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(552 1779.9343)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="104.744" y="14">1</tspan>
+        </text>
+      </g>
+      <g id="Line_101">
+        <line x1="263.01597" y1="1480.0777" x2="589.8656" y2="1568.686" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_102">
+        <line x1="216.47405" y1="1496.9672" x2="588.0417" y2="1742.969" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_104">
+        <rect x="262.48058" y="1608.6928" width="296.848" height="34.000016" fill="white"/>
+        <text transform="translate(267.48057 1613.6928)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="881073e-18" y="14">uro:numberOfBuidingUnitOwnership</tspan>
+        </text>
+      </g>
+      <g id="Graphic_105">
+        <rect x="330.4673" y="1510.4687" width="214.72" height="34.000016" fill="white"/>
+        <text transform="translate(335.4673 1515.4687)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="58264504e-20" y="14">uro:realEstateIDOfBuiding</tspan>
+        </text>
+      </g>
+      <g id="Graphic_106">
+        <rect x="294.82438" y="1150.1913" width="207.088" height="34.000016" fill="white"/>
+        <text transform="translate(299.82438 1155.1913)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">uro:realEstateIDAttribute</tspan>
+        </text>
+      </g>
+      <g id="Graphic_107">
+        <rect x="-4.1706064" y="1942" width="230" height="87" fill="white"/>
+        <rect x="-4.1706064" y="1942" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(.8293936 1973.5)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="104.744" y="14">1</tspan>
+        </text>
+      </g>
+      <g id="Line_108">
+        <line x1="137.75326" y1="1504.9862" x2="113.8206" y2="1932.1155" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_109">
+        <rect x="-21.98448" y="1841.8188" width="279.824" height="34.000016" fill="white"/>
+        <text transform="translate(-16.984477 1846.8188)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="2557954e-19" y="14">uro:numberOfRealEstateIDOfLand</tspan>
+        </text>
+      </g>
+      <g id="Graphic_110">
+        <rect x="-294" y="1953.3806" width="230" height="87" fill="white"/>
+        <rect x="-294" y="1953.3806" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-289 1984.8806)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="3.712" y="14">&quot;4703000371792-0000-1”</tspan>
+        </text>
+      </g>
+      <g id="Line_111">
+        <line x1="108.08447" y1="1503.5648" x2="-148.70575" y2="1944.824" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_112">
+        <rect x="-125.53545" y="1720.984" width="194.4" height="34.000016" fill="white"/>
+        <text transform="translate(-120.53546 1725.984)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="7105427e-19" y="14">uro:realEstateIDOfLand</tspan>
+        </text>
+      </g>
+      <g id="Graphic_113">
+        <rect x="-423" y="1760.9636" width="230" height="87" fill="white"/>
+        <rect x="-423" y="1760.9636" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-418 1792.4636)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="99.488" y="14">99</tspan>
+        </text>
+      </g>
+      <g id="Line_114">
+        <line x1="75.578885" y1="1499.0855" x2="-245.61538" y2="1754.7974" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_115">
+        <rect x="-159.06528" y="1605.0875" width="160.288" height="34.000016" fill="white"/>
+        <text transform="translate(-154.06529 1610.0875)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="24158453e-20" y="14">uro:matchingScore</tspan>
+        </text>
+      </g>
+      <g id="Graphic_116">
+        <rect x="280.8019" y="1863" width="230" height="87" fill="white"/>
+        <rect x="280.8019" y="1863" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(285.8019 1894.5)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="12.056" y="14">&quot;4703000378517-0000&quot;</tspan>
+        </text>
+      </g>
+      <g id="Line_117">
+        <line x1="172.43922" y1="1503.6926" x2="366.8795" y2="1854.342" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_118">
+        <rect x="128.36912" y="1705.5829" width="330.896" height="34.000016" fill="white"/>
+        <text transform="translate(133.36912 1710.5829)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="3410605e-19" y="14">uro:realEstateIDOfBuidingUnitOwnership</tspan>
+        </text>
+      </g>
+      <g id="Graphic_119">
+        <rect x="1548" y="494.41723" width="230" height="87" fill="white"/>
+        <rect x="1548" y="494.41723" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1553 525.4172)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="23.184" y="15">“</tspan>
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" y="15">国土交通省ビルヂング</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="15">”</tspan>
+        </text>
+      </g>
+      <g id="Graphic_120">
+        <rect x="1548" y="596.7608" width="230" height="87" fill="white"/>
+        <rect x="1548" y="596.7608" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1553 627.7608)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="23.184" y="15">“</tspan>
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" y="15">国土交通省ビルヂング</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="15">”</tspan>
+        </text>
+      </g>
+      <g id="Line_121">
+        <line x1="796.7205" y1="822.0223" x2="1538.593" y2="578.7178" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_122">
+        <line x1="811.7655" y1="830.7236" x2="1538.3389" y2="668.1536" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_123">
+        <rect x="1133.9693" y="680.859" width="82.688" height="34.000016" fill="white"/>
+        <text transform="translate(1138.9693 685.859)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">rdfs:label</tspan>
+        </text>
+      </g>
+      <g id="Graphic_124">
+        <rect x="1087.7424" y="738.72274" width="118.448" height="34.000016" fill="white"/>
+        <text transform="translate(1092.7424 743.72274)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="16342483e-20" y="14">schema:name</tspan>
+        </text>
+      </g>
+      <g id="Graphic_125">
+        <rect x="1548" y="699.1043" width="230" height="87" fill="white"/>
+        <rect x="1548" y="699.1043" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1553 730.1043)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="23.184" y="15">“</tspan>
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" y="15">国土交通省ビルヂング</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="15">”</tspan>
+        </text>
+      </g>
+      <g id="Line_126">
+        <line x1="824.6419" y1="842.8199" x2="1538.17" y2="757.5262" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_127">
+        <rect x="1101.6181" y="787.2196" width="91.872" height="34.000016" fill="white"/>
+        <text transform="translate(1106.6181 792.2196)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">bldg:name</tspan>
+        </text>
+      </g>
+      <g id="Graphic_128">
+        <rect x="1548" y="802" width="230" height="87" fill="white"/>
+        <rect x="1548" y="802" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1553 833)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="63.184" y="15">“</tspan>
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" y="15">建物の説明</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="15">”</tspan>
+        </text>
+      </g>
+      <g id="Graphic_129">
+        <rect x="1548" y="903.7914" width="230" height="87" fill="white"/>
+        <rect x="1548" y="903.7914" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1553 934.7914)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="63.184" y="15">“</tspan>
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" y="15">建物の説明</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="15">”</tspan>
+        </text>
+      </g>
+      <g id="Line_131">
+        <line x1="830.819" y1="857.7868" x2="1538.101" y2="847.3441" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_132">
+        <line x1="827.3537" y1="873.0156" x2="1538.1389" y2="936.1932" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_133">
+        <rect x="1113.2092" y="835.4093" width="163.648" height="34.000016" fill="white"/>
+        <text transform="translate(1118.2092 840.4093)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="5258016e-19" y="14">schema:description</tspan>
+        </text>
+      </g>
+      <g id="Graphic_134">
+        <rect x="1126.2341" y="888.6731" width="137.072" height="34.000016" fill="white"/>
+        <text transform="translate(1131.2341 893.6731)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="5684342e-20" y="14">bldg:description</tspan>
+        </text>
+      </g>
+      <g id="Graphic_135">
+        <ellipse cx="1584.5" cy="1077.2045" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="1584.5" cy="1077.2045" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1470.7 1058.7565)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="26.384003" y="15">https://lod.geospatial.jp/</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="15.568003" y="33.448">codelists/Building_usage#1</tspan>
+        </text>
+      </g>
+      <g id="Line_136">
+        <line x1="809.4055" y1="890.8855" x2="1448.3786" y2="1044.4833" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_137">
+        <rect x="1070.9861" y="948.282" width="95.824" height="34.000016" fill="white"/>
+        <text transform="translate(1075.9861 953.282)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="2629008e-19" y="14">bldg:usage</tspan>
+        </text>
+      </g>
+      <g id="Graphic_138">
+        <ellipse cx="1523.5" cy="1220.4531" rx="148.500237288432" ry="58.00009267831" fill="white"/>
+        <ellipse cx="1523.5" cy="1220.4531" rx="148.500237288432" ry="58.00009267831" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1409.7 1202.0051)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="26.384003" y="15">https://lod.geospatial.jp/</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="6.384003" y="33.448">codelists/Building_roofType#1</tspan>
+        </text>
+      </g>
+      <g id="Line_139">
+        <line x1="783.0677" y1="903.6982" x2="1414.2706" y2="1173.725" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_140">
+        <rect x="1079.6304" y="1039.0807" width="119.28" height="34.000016" fill="white"/>
+        <text transform="translate(1084.6304 1044.0807)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">bldg:roofType</tspan>
+        </text>
+      </g>
+      <g id="Graphic_141">
+        <rect x="1145" y="1264" width="230" height="87" fill="white"/>
+        <rect x="1145" y="1264" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1150 1298.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="92.208" y="15">1977</tspan>
+        </text>
+      </g>
+      <g id="Line_142">
+        <line x1="749.4954" y1="912.993" x2="1195.8761" y2="1257.9464" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_143">
+        <rect x="872.8444" y="1070.5459" width="205.056" height="34.000016" fill="white"/>
+        <text transform="translate(877.8444 1075.5459)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="24158453e-20" y="14">bldg:yearOfConstruction</tspan>
+        </text>
+      </g>
+      <g id="Graphic_144">
+        <rect x="963.5071" y="1405" width="230" height="87" fill="white"/>
+        <rect x="963.5071" y="1405" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(968.5071 1439.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="92.208" y="15">1977</tspan>
+        </text>
+      </g>
+      <g id="Line_145">
+        <line x1="719.7663" y1="917.4985" x2="1043.5767" y2="1396.7967" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_146">
+        <rect x="831.3682" y="1203.453" width="186.144" height="34.000016" fill="white"/>
+        <text transform="translate(836.3682 1208.453)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="11368684e-20" y="14">bldg:yearOfDemolition</tspan>
+        </text>
+      </g>
+      <g id="Graphic_147">
+        <rect x="697" y="1389" width="230" height="87" fill="white"/>
+        <rect x="697" y="1389" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(702 1423.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="105.552" y="15">2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_148">
+        <rect x="394" y="1328.072" width="230" height="87" fill="white"/>
+        <rect x="394" y="1328.072" width="230" height="87" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(399 1362.348)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="105.552" y="15">5</tspan>
+        </text>
+      </g>
+      <g id="Line_149">
+        <line x1="661.0977" y1="918.986" x2="526.7725" y2="1318.6878" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_150">
+        <line x1="694.4888" y1="919.2598" x2="799.8307" y2="1379.3497" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_151">
+        <rect x="485.8516" y="1101.2045" width="216.592" height="34.000016" fill="white"/>
+        <text transform="translate(490.8516 1106.2045)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="27000624e-20" y="14">bldg:storeysAboveGround</tspan>
+        </text>
+      </g>
+      <g id="Graphic_152">
+        <rect x="645.5527" y="1153.6224" width="212.976" height="34.000016" fill="white"/>
+        <text transform="translate(650.5527 1158.6224)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="16" font-weight="300" fill="black" x="0" y="14">bldg:storeysBelowGround</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "plateau": "https://lod.geospatial.jp/resource/",
+        "pv": "https://lod.geospatial.jp/vocabulary/pv#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@type": "pv:RealEstateIDAttribute",
+    "@id": "plateau:real-estate-id-bldg_7b561f02-8a48-40b4-87fe-268b6a2f2ecb",
+    "pv:realEstateIDOfBuilding": "0804000818550-0000",
+    "pv:numberOfRealEstateIDOfLand": {
+        "@type": "xsd:decimal",
+        "@value": 6
+    },
+    "pv:realEstateIDOfLand": [
+        "0804000828780-0000",
+        "0804000828704-0000",
+        "0804000828711-0000",
+        "0804000828714-0000",
+        "0804000828771-0000",
+        "0804000828773-0000"
+    ],
+    "pv:matchingScore": {
+        "@type": "xsd:decimal",
+        "@value": 93
+    }
+}
