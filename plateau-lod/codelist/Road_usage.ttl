@@ -1,0 +1,20 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Road_usage#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Road_usage a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:Road_usage ;
+skos:prefLabel "緊急輸送道路（第一次緊急輸送道路）" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:Road_usage ;
+skos:prefLabel "緊急輸送道路（第二次緊急輸送道路）" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:Road_usage ;
+skos:prefLabel "緊急輸送道路（第三次緊急輸送道路）" .
+ns:4 a skos:Concept ;
+skos:inScheme ns:Road_usage ;
+skos:prefLabel "緊急輸送道路（未指定）" .
+ns:5 a skos:Concept ;
+skos:inScheme ns:Road_usage ;
+skos:prefLabel "避難路／避難道路" .

@@ -1,0 +1,14 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/RoadDataQualityAttribute_srcScale#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:RoadDataQualityAttribute_srcScale a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:RoadDataQualityAttribute_srcScale ;
+skos:prefLabel "地図情報レベル2500" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:RoadDataQualityAttribute_srcScale ;
+skos:prefLabel "地図情報レベル1000" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:RoadDataQualityAttribute_srcScale ;
+skos:prefLabel "地図情報レベル500" .

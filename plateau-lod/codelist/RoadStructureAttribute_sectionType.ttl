@@ -1,0 +1,26 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/RoadStructureAttribute_sectionType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:RoadStructureAttribute_sectionType a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:RoadStructureAttribute_sectionType ;
+skos:prefLabel "土工区間" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:RoadStructureAttribute_sectionType ;
+skos:prefLabel "高架橋" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:RoadStructureAttribute_sectionType ;
+skos:prefLabel "橋梁" .
+ns:4 a skos:Concept ;
+skos:inScheme ns:RoadStructureAttribute_sectionType ;
+skos:prefLabel "交差部" .
+ns:5 a skos:Concept ;
+skos:inScheme ns:RoadStructureAttribute_sectionType ;
+skos:prefLabel "アンダーパス" .
+ns:6 a skos:Concept ;
+skos:inScheme ns:RoadStructureAttribute_sectionType ;
+skos:prefLabel "トンネル" .
+ns:7 a skos:Concept ;
+skos:inScheme ns:RoadStructureAttribute_sectionType ;
+skos:prefLabel "橋・高架" .

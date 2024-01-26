@@ -1,0 +1,17 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/SolitaryVegetationObject_class#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:SolitaryVegetationObject_class a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:SolitaryVegetationObject_class ;
+skos:prefLabel "高木（樹高3m以上）" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:SolitaryVegetationObject_class ;
+skos:prefLabel "中木（樹高1m以上3m未満）" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:SolitaryVegetationObject_class ;
+skos:prefLabel "低木（樹高1m未満）" .
+ns:0 a skos:Concept ;
+skos:inScheme ns:SolitaryVegetationObject_class ;
+skos:prefLabel "不明" .

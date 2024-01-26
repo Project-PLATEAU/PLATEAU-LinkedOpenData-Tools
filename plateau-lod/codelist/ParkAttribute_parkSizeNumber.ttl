@@ -1,0 +1,23 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/ParkAttribute_parkSizeNumber#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:ParkAttribute_parkSizeNumber a skos:ConceptScheme .
+
+ns:2 a skos:Concept ;
+skos:inScheme ns:ParkAttribute_parkSizeNumber ;
+skos:prefLabel "面積1ha未満" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:ParkAttribute_parkSizeNumber ;
+skos:prefLabel "面積1ha以上4ha未満" .
+ns:4 a skos:Concept ;
+skos:inScheme ns:ParkAttribute_parkSizeNumber ;
+skos:prefLabel "面積4ha以上10ha未満" .
+ns:5 a skos:Concept ;
+skos:inScheme ns:ParkAttribute_parkSizeNumber ;
+skos:prefLabel "面積10ha以上50ha未満" .
+ns:6 a skos:Concept ;
+skos:inScheme ns:ParkAttribute_parkSizeNumber ;
+skos:prefLabel "面積50ha以上300ha未満" .
+ns:7 a skos:Concept ;
+skos:inScheme ns:ParkAttribute_parkSizeNumber ;
+skos:prefLabel "面積300ha以上" .

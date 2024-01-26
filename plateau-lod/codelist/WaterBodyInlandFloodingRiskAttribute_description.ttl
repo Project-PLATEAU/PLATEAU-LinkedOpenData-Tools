@@ -1,0 +1,8 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/WaterBodyInlandFloodingRiskAttribute_description#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:WaterBodyInlandFloodingRiskAttribute_description a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:WaterBodyInlandFloodingRiskAttribute_description ;
+skos:prefLabel "日田市内水ハザードマップ" .

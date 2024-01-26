@@ -1,0 +1,44 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Waterway_structure#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Waterway_structure a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "単断面式" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "複断面式" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "築堤式単断面" .
+ns:4 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "堤防式単断面" .
+ns:5 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "堤防式複断面" .
+ns:6 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "堀込式単断面" .
+ns:7 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "堀込式複断面" .
+ns:8 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "地下トンネル式単断面" .
+ns:9 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "地下式単断面" .
+ns:10 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "堀込式" .
+ns:11 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "暗渠式" .
+ns:12 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "ブロック単断面" .
+ns:13 a skos:Concept ;
+skos:inScheme ns:Waterway_structure ;
+skos:prefLabel "ブロック堤防式" .

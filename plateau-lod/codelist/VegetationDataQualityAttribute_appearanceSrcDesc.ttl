@@ -1,0 +1,17 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/VegetationDataQualityAttribute_appearanceSrcDesc#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:VegetationDataQualityAttribute_appearanceSrcDesc a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:VegetationDataQualityAttribute_appearanceSrcDesc ;
+skos:prefLabel "空中写真" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:VegetationDataQualityAttribute_appearanceSrcDesc ;
+skos:prefLabel "MMS画像" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:VegetationDataQualityAttribute_appearanceSrcDesc ;
+skos:prefLabel "現地写真" .
+ns:4 a skos:Concept ;
+skos:inScheme ns:VegetationDataQualityAttribute_appearanceSrcDesc ;
+skos:prefLabel "疑似テクスチャ" .

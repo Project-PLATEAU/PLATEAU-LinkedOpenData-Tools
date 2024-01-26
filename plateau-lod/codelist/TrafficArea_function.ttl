@@ -1,0 +1,14 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/TrafficArea_function#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:TrafficArea_function a skos:ConceptScheme .
+
+ns:1000 a skos:Concept ;
+skos:inScheme ns:TrafficArea_function ;
+skos:prefLabel "車道部" .
+ns:1020 a skos:Concept ;
+skos:inScheme ns:TrafficArea_function ;
+skos:prefLabel "車道交差部" .
+ns:2000 a skos:Concept ;
+skos:inScheme ns:TrafficArea_function ;
+skos:prefLabel "歩道部" .

@@ -1,0 +1,23 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/UrbanRoadAttribute_routeTypeNumber#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:UrbanRoadAttribute_routeTypeNumber a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:UrbanRoadAttribute_routeTypeNumber ;
+skos:prefLabel "自動車専用道路" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:UrbanRoadAttribute_routeTypeNumber ;
+skos:prefLabel "幹線街路" .
+ns:7 a skos:Concept ;
+skos:inScheme ns:UrbanRoadAttribute_routeTypeNumber ;
+skos:prefLabel "区画街路" .
+ns:8 a skos:Concept ;
+skos:inScheme ns:UrbanRoadAttribute_routeTypeNumber ;
+skos:prefLabel "特殊街路（歩行者、自転車道）" .
+ns:9 a skos:Concept ;
+skos:inScheme ns:UrbanRoadAttribute_routeTypeNumber ;
+skos:prefLabel "特殊街路（都市モノレール）" .
+ns:10 a skos:Concept ;
+skos:inScheme ns:UrbanRoadAttribute_routeTypeNumber ;
+skos:prefLabel "特殊街路（路面電車）" .

@@ -1,0 +1,11 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/ZonalDisasterPreventionFacility_facilityType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:ZonalDisasterPreventionFacility_facilityType a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:ZonalDisasterPreventionFacility_facilityType ;
+skos:prefLabel "地区防災施設" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:ZonalDisasterPreventionFacility_facilityType ;
+skos:prefLabel "特定地区防災施設" .
