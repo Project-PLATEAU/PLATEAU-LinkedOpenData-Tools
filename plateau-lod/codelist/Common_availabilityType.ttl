@@ -1,0 +1,14 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Common_availabilityType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Common_availabilityType a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:Common_availabilityType ;
+skos:prefLabel "有り" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:Common_availabilityType ;
+skos:prefLabel "無し" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:Common_availabilityType ;
+skos:prefLabel "不明" .

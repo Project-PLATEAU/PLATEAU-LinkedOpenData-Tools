@@ -1,0 +1,17 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingDataQualityAttribute_thematicSrcDesc#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingDataQualityAttribute_thematicSrcDesc a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_thematicSrcDesc ;
+skos:prefLabel "都市計画基礎調査" .
+ns:6 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_thematicSrcDesc ;
+skos:prefLabel "写真判読" .
+ns:7 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_thematicSrcDesc ;
+skos:prefLabel "現地調査" .
+ns:8 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_thematicSrcDesc ;
+skos:prefLabel "GISデータ演算" .

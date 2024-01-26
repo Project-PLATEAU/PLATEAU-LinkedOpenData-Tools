@@ -1,0 +1,29 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Building_buildingStructureType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Building_buildingStructureType a skos:ConceptScheme .
+
+ns:601 a skos:Concept ;
+skos:inScheme ns:Building_buildingStructureType ;
+skos:prefLabel "木造・土蔵造" .
+ns:602 a skos:Concept ;
+skos:inScheme ns:Building_buildingStructureType ;
+skos:prefLabel "鉄骨鉄筋コンクリート造" .
+ns:603 a skos:Concept ;
+skos:inScheme ns:Building_buildingStructureType ;
+skos:prefLabel "鉄筋コンクリート造" .
+ns:604 a skos:Concept ;
+skos:inScheme ns:Building_buildingStructureType ;
+skos:prefLabel "鉄骨造" .
+ns:605 a skos:Concept ;
+skos:inScheme ns:Building_buildingStructureType ;
+skos:prefLabel "軽量鉄骨造" .
+ns:606 a skos:Concept ;
+skos:inScheme ns:Building_buildingStructureType ;
+skos:prefLabel "レンガ造・コンクリートブロック造・石造" .
+ns:610 a skos:Concept ;
+skos:inScheme ns:Building_buildingStructureType ;
+skos:prefLabel "非木造" .
+ns:611 a skos:Concept ;
+skos:inScheme ns:Building_buildingStructureType ;
+skos:prefLabel "不明" .

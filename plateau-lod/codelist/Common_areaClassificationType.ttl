@@ -1,0 +1,23 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Common_areaClassificationType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Common_areaClassificationType a skos:ConceptScheme .
+
+ns:22 a skos:Concept ;
+skos:inScheme ns:Common_areaClassificationType ;
+skos:prefLabel "市街化区域" .
+ns:23 a skos:Concept ;
+skos:inScheme ns:Common_areaClassificationType ;
+skos:prefLabel "市街化調整区域" .
+ns:24 a skos:Concept ;
+skos:inScheme ns:Common_areaClassificationType ;
+skos:prefLabel "非線引き用途地域" .
+ns:25 a skos:Concept ;
+skos:inScheme ns:Common_areaClassificationType ;
+skos:prefLabel "非線引き用途白地" .
+ns:31 a skos:Concept ;
+skos:inScheme ns:Common_areaClassificationType ;
+skos:prefLabel "居住誘導区域" .
+ns:32 a skos:Concept ;
+skos:inScheme ns:Common_areaClassificationType ;
+skos:prefLabel "都市機能誘導区域" .

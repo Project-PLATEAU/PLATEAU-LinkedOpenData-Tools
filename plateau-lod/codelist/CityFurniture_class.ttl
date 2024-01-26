@@ -1,0 +1,17 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/CityFurniture_class#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:CityFurniture_class a skos:ConceptScheme .
+
+ns:1000 a skos:Concept ;
+skos:inScheme ns:CityFurniture_class ;
+skos:prefLabel "交通施設" .
+ns:1010 a skos:Concept ;
+skos:inScheme ns:CityFurniture_class ;
+skos:prefLabel "通信施設" .
+ns:1020 a skos:Concept ;
+skos:inScheme ns:CityFurniture_class ;
+skos:prefLabel "保安施設" .
+ns:1030 a skos:Concept ;
+skos:inScheme ns:CityFurniture_class ;
+skos:prefLabel "その他" .

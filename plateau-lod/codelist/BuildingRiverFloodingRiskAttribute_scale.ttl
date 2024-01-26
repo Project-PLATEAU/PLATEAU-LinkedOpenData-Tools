@@ -1,0 +1,11 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingRiverFloodingRiskAttribute_scale#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingRiverFloodingRiskAttribute_scale a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:BuildingRiverFloodingRiskAttribute_scale ;
+skos:prefLabel "L1（計画規模）" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:BuildingRiverFloodingRiskAttribute_scale ;
+skos:prefLabel "L2（想定最大規模）" .

@@ -1,0 +1,17 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingDetailAttribute_fireproofStructureType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingDetailAttribute_fireproofStructureType a skos:ConceptScheme .
+
+ns:1001 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_fireproofStructureType ;
+skos:prefLabel "耐火" .
+ns:1002 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_fireproofStructureType ;
+skos:prefLabel "準耐火造" .
+ns:1003 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_fireproofStructureType ;
+skos:prefLabel "その他" .
+ns:1011 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_fireproofStructureType ;
+skos:prefLabel "不明" .

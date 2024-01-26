@@ -1,0 +1,26 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingDataQualityAttribute_lod1HeightType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingDataQualityAttribute_lod1HeightType a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_lod1HeightType ;
+skos:prefLabel "点群から取得_最高高さ" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_lod1HeightType ;
+skos:prefLabel "点群から取得_中央値" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_lod1HeightType ;
+skos:prefLabel "点群から取得_平均値" .
+ns:4 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_lod1HeightType ;
+skos:prefLabel "点群から取得_最頻値" .
+ns:5 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_lod1HeightType ;
+skos:prefLabel "点群から取得_最低値" .
+ns:6 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_lod1HeightType ;
+skos:prefLabel "航空写真図化_最高高さ" .
+ns:7 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_lod1HeightType ;
+skos:prefLabel "建築確認申請書類等に記載された「建築物の高さ」" .

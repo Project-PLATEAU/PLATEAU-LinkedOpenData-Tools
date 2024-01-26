@@ -1,0 +1,14 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Common_validType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Common_validType a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:Common_validType ;
+skos:prefLabel "決定" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:Common_validType ;
+skos:prefLabel "廃止" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:Common_validType ;
+skos:prefLabel "変更" .

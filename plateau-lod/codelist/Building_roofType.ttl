@@ -1,0 +1,92 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Building_roofType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Building_roofType a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "切妻屋根" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "寄棟屋根" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "方形屋根" .
+ns:4 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "陸屋根" .
+ns:5 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "片流れ屋根" .
+ns:6 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "袴腰屋根/半切妻屋根" .
+ns:7 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "入母屋屋根" .
+ns:8 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "錣（しころ）屋根" .
+ns:9 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "マンサード屋根" .
+ns:10 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "越屋根" .
+ns:11 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "招き屋根" .
+ns:12 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "差し掛け屋根" .
+ns:13 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "バタフライ屋根" .
+ns:14 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "鋸屋根" .
+ns:15 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "六柱屋根" .
+ns:16 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "八柱屋根" .
+ns:17 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "M型屋根" .
+ns:18 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "下屋付招き屋根" .
+ns:19 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "棟違い屋根" .
+ns:20 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "乗り越し屋根" .
+ns:21 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "腰折れ屋根" .
+ns:22 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "隅切屋根" .
+ns:23 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "アーチ屋根" .
+ns:24 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "ドーム屋根" .
+ns:25 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "シェル屋根" .
+ns:26 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "カテナリー屋根" .
+ns:27 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "膜構造" .
+ns:28 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "その他" .
+ns:9020 a skos:Concept ;
+skos:inScheme ns:Building_roofType ;
+skos:prefLabel "不明" .

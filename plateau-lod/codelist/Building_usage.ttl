@@ -1,0 +1,59 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Building_usage#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Building_usage a skos:ConceptScheme .
+
+ns:401 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "業務施設" .
+ns:402 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "商業施設" .
+ns:403 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "宿泊施設" .
+ns:404 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "商業系複合施設" .
+ns:411 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "住宅" .
+ns:412 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "共同住宅" .
+ns:413 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "店舗等併用住宅" .
+ns:414 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "店舗等併用共同住宅" .
+ns:415 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "作業所併用住宅" .
+ns:421 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "官公庁施設" .
+ns:422 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "文教厚生施設" .
+ns:431 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "運輸倉庫施設" .
+ns:441 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "工場" .
+ns:451 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "農林漁業用施設" .
+ns:452 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "供給処理施設" .
+ns:453 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "防衛施設" .
+ns:454 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "その他" .
+ns:461 a skos:Concept ;
+skos:inScheme ns:Building_usage ;
+skos:prefLabel "不明" .

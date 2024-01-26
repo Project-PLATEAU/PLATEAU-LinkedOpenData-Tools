@@ -1,0 +1,14 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingLandSlideRiskAttribute_description#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingLandSlideRiskAttribute_description a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:BuildingLandSlideRiskAttribute_description ;
+skos:prefLabel "急傾斜地の崩落" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:BuildingLandSlideRiskAttribute_description ;
+skos:prefLabel "土石流" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:BuildingLandSlideRiskAttribute_description ;
+skos:prefLabel "地すべり" .

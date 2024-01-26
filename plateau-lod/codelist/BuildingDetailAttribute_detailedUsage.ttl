@@ -1,0 +1,500 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingDetailAttribute_detailedUsage#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingDetailAttribute_detailedUsage a skos:ConceptScheme .
+
+ns:401 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "業務施設" .
+ns:401101 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "事務所" .
+ns:401102 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "銀行" .
+ns:401103 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "会議場・展示場" .
+ns:401104 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "郵便局" .
+ns:401105 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "電話局" .
+ns:401106 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "民間研究所" .
+ns:401107 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "研修所" .
+ns:402 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "商業施設" .
+ns:4021 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "商業施設1（百貨店、小売店、卸売店、ガソリンスタンド 等）" .
+ns:402101 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "百貨店" .
+ns:402102 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "小売店" .
+ns:402103 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "卸売店" .
+ns:402104 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "ガソリンスタンド" .
+ns:4022 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "商業施設2（食堂、喫茶店、弁当屋・宅配 等）" .
+ns:402201 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "食堂" .
+ns:402202 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "喫茶店" .
+ns:402203 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "弁当屋・宅配" .
+ns:4023 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "商業施設3（理容店、美容院、レンタル業、宴会場、結婚式場、習い事教室、予備校、自動車教習所、住宅展示場、その他のサービス施設）" .
+ns:402301 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "理容店" .
+ns:402302 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "美容院" .
+ns:402303 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "レンタル業" .
+ns:402304 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "宴会場" .
+ns:402305 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "結婚式場" .
+ns:402306 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "習い事教室" .
+ns:402307 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "予備校" .
+ns:402308 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "自動車教習所" .
+ns:402309 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "住宅展示場" .
+ns:402310 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "その他サービス施設" .
+ns:4024 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "商業施設4（料理店、キャバレー、クラブ、バー、飲み屋 等）" .
+ns:402401 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "料理店" .
+ns:402402 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "キャバレー" .
+ns:402403 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "クラブ" .
+ns:402404 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "バー" .
+ns:402405 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "飲み屋" .
+ns:4025 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "商業施設5（劇場、映画館 等）" .
+ns:402501 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "劇場" .
+ns:402502 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "映画館" .
+ns:4026 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "商業施設6（ボーリング場、バッティングセンター、ゴルフ練習場、フィットネス、カラオケボックス、インターネットカフェ 等）" .
+ns:402601 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "ボーリング場" .
+ns:402602 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "バッティングセンター" .
+ns:402603 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "ゴルフ練習場" .
+ns:402604 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "フィットネス" .
+ns:402605 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "カラオケボックス" .
+ns:402606 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "インターネットカフェ" .
+ns:4027 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "商業施設7（マージャン屋、パチンコ屋、馬券・車券発売所 等）" .
+ns:402701 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "マージャン屋" .
+ns:402702 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "パチンコ店" .
+ns:402703 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "馬券・車券発売所" .
+ns:403 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "宿泊施設" .
+ns:403101 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "ホテル" .
+ns:403102 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "旅館" .
+ns:403103 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "民宿" .
+ns:403104 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "ラブホテル" .
+ns:404 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "商業系複合施設" .
+ns:4041 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "商業系複合施設" .
+ns:411 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "住宅" .
+ns:4111 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "専用住宅（住宅に付随する物置、車庫を含む）" .
+ns:412 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "共同住宅" .
+ns:412101 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "アパート" .
+ns:412102 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "マンション" .
+ns:412103 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "長屋" .
+ns:412104 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "寮" .
+ns:413 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "店舗等併用住宅" .
+ns:4131 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "店舗等併用住宅" .
+ns:414 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "店舗等併用共同住宅" .
+ns:4141 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "店舗等併用共同住宅" .
+ns:415 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "作業所併用住宅" .
+ns:4151 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "作業所併用住宅" .
+ns:421 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "官公庁施設" .
+ns:421101 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "国県市町村庁舎" .
+ns:421102 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "裁判所" .
+ns:421103 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "税務署" .
+ns:421104 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "警察署" .
+ns:421105 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "消防署" .
+ns:421106 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "駐在所" .
+ns:422 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "文教厚生施設" .
+ns:4221 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "文教厚生施設1（大学、高等専門学校、各種学校、公的研究所 等）" .
+ns:422101 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "大学" .
+ns:422102 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "高等専門学校" .
+ns:422103 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "各種学校" .
+ns:422104 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "公的研究所" .
+ns:4222 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "文教厚生施設2（小・中・高等学校、保育所 等）" .
+ns:422201 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "小・中・高等学校" .
+ns:422202 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "保育所" .
+ns:4223 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "文教厚生施設3（図書館、博物館、文化ホール、集会所、動物園 等）" .
+ns:422301 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "図書館" .
+ns:422302 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "博物館" .
+ns:422303 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "文化ホール" .
+ns:422304 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "集会所" .
+ns:422305 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "動物園" .
+ns:4224 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "文教厚生施設4（体育館、水泳場、野球場、陸上競技場その他のスポーツ施設（主に公共施設））" .
+ns:422401 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "体育館" .
+ns:422402 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "水泳場" .
+ns:422403 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "野球場" .
+ns:422404 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "陸上競技場その他のスポーツ施設（主に公共施設）" .
+ns:4225 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "文教厚生施設5（病院）" .
+ns:4226 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "文教厚生施設6（診療所、老人ホーム、介護福祉施設、公衆浴場、公衆便所 等）" .
+ns:422601 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "診療所" .
+ns:422602 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "老人ホーム" .
+ns:422603 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "介護福祉施設" .
+ns:422604 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "公衆浴場" .
+ns:422605 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "公衆便所" .
+ns:4227 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "文教厚生施設7（神社、寺院、教会 等）" .
+ns:422701 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "神社" .
+ns:422702 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "寺院" .
+ns:422703 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "教会" .
+ns:431 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "運輸倉庫施設" .
+ns:4311 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "運輸倉庫施設1（駅舎、電車車庫、バスターミナル、港湾・空港施設 等）" .
+ns:431101 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "駅舎" .
+ns:431102 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "電車車庫" .
+ns:431103 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "バスターミナル" .
+ns:431104 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "港湾・空港施設" .
+ns:4312 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "運輸倉庫施設2（卸売市場、倉庫、トラックターミナル 等）" .
+ns:431201 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "卸売市場" .
+ns:431202 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "倉庫" .
+ns:431203 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "トラックターミナル" .
+ns:4313 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "運輸倉庫施設3（立体駐車場、駐輪施設 等）" .
+ns:431301 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "立体駐車場" .
+ns:431302 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "駐輪施設" .
+ns:441 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "工場" .
+ns:4411 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "工場1（危険物の製造、液化ガスの製造、塩素･臭素等の製造、肥料の製造、製紙、製革、アスファルトの精製、セメントの製造、金属の溶融 等（準工業地域において立地不可））" .
+ns:441101 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "危険物の製造" .
+ns:441102 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "液化ガスの製造" .
+ns:441103 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "塩素・臭素等の製造" .
+ns:441104 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "肥料の製造" .
+ns:441105 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "製紙" .
+ns:441106 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "製革" .
+ns:441107 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "アスファルトの精製" .
+ns:441108 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "セメントの製造" .
+ns:441109 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "金属の溶解" .
+ns:4412 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "工場2（原動機を使用する 150 ㎡を超える工場、引火性溶剤を用いるドライクリー ニング、原動機を使用する岩石の粉砕、レディミクストコンクリートの製造、陶磁器・ガラスの製造 等（商業地域において立地不可））" .
+ns:441201 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "原動機を使用する 150 ㎡を超える工場" .
+ns:441202 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "引火性溶剤を用いるドライクリー ニング" .
+ns:441203 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "原動機を使用する岩石の粉砕" .
+ns:441204 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "レディミクストコンクリートの製造" .
+ns:441205 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "陶磁器・ガラスの製造" .
+ns:4413 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "工場3（原動機を使用する 50 ㎡を超える工場、原動機を使用する魚肉の練製品の製造･セメント製品の製造･金属の加工・印刷、木工所、めっき 等（住居地域において立地不可）" .
+ns:441301 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "原動機を使用する 50 ㎡を超える工場" .
+ns:441302 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "原動機を使用する魚肉の練製品の製造･セメント製品の製造･金属の加工・印刷" .
+ns:441303 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "木工所" .
+ns:441304 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "めっき" .
+ns:4414 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "工場4（50 ㎡以内のパン屋、米屋、豆腐屋、菓子屋その他これらに類する食品製造業を営む工場 等）" .
+ns:441401 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "50 ㎡以内のパン屋" .
+ns:441402 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "米屋" .
+ns:441403 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "豆腐屋" .
+ns:441404 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "菓子屋その他これらに類する食品製造業を営む工場" .
+ns:4415 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "工場5（自動車修理工場）" .
+ns:451 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "農林漁業用施設" .
+ns:451101 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "農業用納屋" .
+ns:451102 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "畜舎" .
+ns:451103 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "温室" .
+ns:451104 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "船小屋" .
+ns:451105 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "農林漁業用作業場" .
+ns:452 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "供給処理施設" .
+ns:452101 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "処理場" .
+ns:452102 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "浄水場" .
+ns:452103 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "ポンプ場" .
+ns:452104 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "火葬場" .
+ns:452105 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "発電所" .
+ns:452106 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "変電所" .
+ns:452107 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "ガス・熱供給施設" .
+ns:453 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "防衛施設" .
+ns:454 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "その他" .
+ns:461 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_detailedUsage ;
+skos:prefLabel "不明" .

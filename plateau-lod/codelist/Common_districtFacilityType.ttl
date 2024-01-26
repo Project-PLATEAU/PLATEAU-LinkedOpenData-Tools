@@ -1,0 +1,14 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Common_districtFacilityType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Common_districtFacilityType a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:Common_districtFacilityType ;
+skos:prefLabel "地区施設" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:Common_districtFacilityType ;
+skos:prefLabel "沿道地区施設" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:Common_districtFacilityType ;
+skos:prefLabel "集落地区施設" .

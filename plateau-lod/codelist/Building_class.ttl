@@ -1,0 +1,20 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Building_class#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Building_class a skos:ConceptScheme .
+
+ns:3001 a skos:Concept ;
+skos:inScheme ns:Building_class ;
+skos:prefLabel "普通建物" .
+ns:3002 a skos:Concept ;
+skos:inScheme ns:Building_class ;
+skos:prefLabel "堅ろう建物" .
+ns:3003 a skos:Concept ;
+skos:inScheme ns:Building_class ;
+skos:prefLabel "普通無壁舎" .
+ns:3004 a skos:Concept ;
+skos:inScheme ns:Building_class ;
+skos:prefLabel "堅ろう無壁舎" .
+ns:3000 a skos:Concept ;
+skos:inScheme ns:Building_class ;
+skos:prefLabel "分類しない建物" .

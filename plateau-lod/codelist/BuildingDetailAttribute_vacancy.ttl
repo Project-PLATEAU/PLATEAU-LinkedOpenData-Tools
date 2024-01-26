@@ -1,0 +1,11 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingDetailAttribute_vacancy#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingDetailAttribute_vacancy a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_vacancy ;
+skos:prefLabel "空き家" .
+ns:0 a skos:Concept ;
+skos:inScheme ns:BuildingDetailAttribute_vacancy ;
+skos:prefLabel "空き家以外" .

@@ -1,0 +1,35 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingDataQualityAttribute_geometrySrcDesc#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingDataQualityAttribute_geometrySrcDesc a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_geometrySrcDesc ;
+skos:prefLabel "現地測量" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_geometrySrcDesc ;
+skos:prefLabel "地上レーザ測量" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_geometrySrcDesc ;
+skos:prefLabel "車載写真レーザ測量" .
+ns:4 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_geometrySrcDesc ;
+skos:prefLabel "UAV写真測量" .
+ns:5 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_geometrySrcDesc ;
+skos:prefLabel "空中写真測量" .
+ns:6 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_geometrySrcDesc ;
+skos:prefLabel "既成図数値化" .
+ns:7 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_geometrySrcDesc ;
+skos:prefLabel "修正測量" .
+ns:8 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_geometrySrcDesc ;
+skos:prefLabel "航空レーザ測量" .
+ns:9 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_geometrySrcDesc ;
+skos:prefLabel "現地調査" .
+ns:0 a skos:Concept ;
+skos:inScheme ns:BuildingDataQualityAttribute_geometrySrcDesc ;
+skos:prefLabel "推定" .

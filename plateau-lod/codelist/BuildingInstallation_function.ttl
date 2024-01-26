@@ -1,0 +1,77 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingInstallation_function#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingInstallation_function a skos:ConceptScheme .
+
+ns:1000 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "バルコニー" .
+ns:1001 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "ポーチ" .
+ns:1002 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "テラス" .
+ns:1003 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "エントランスホール" .
+ns:1010 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "温室" .
+ns:1011 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "カーポート" .
+ns:1012 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "物置" .
+ns:1020 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "アーケード" .
+ns:1021 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "回廊" .
+ns:1030 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "煙突（建築物の一部としての）" .
+ns:1031 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "ダクト" .
+ns:1032 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "換気口" .
+ns:1033 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "アンテナ" .
+ns:1040 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "塔（建築物の一部としての）" .
+ns:1041 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "塔屋" .
+ns:1050 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "柱・円柱" .
+ns:1051 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "看板" .
+ns:1052 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "屋根飾り" .
+ns:1053 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "ドーマー" .
+ns:1054 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "出窓" .
+ns:1060 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "階段" .
+ns:1061 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "手すり" .
+ns:1062 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "外階段・歩道の庇" .
+ns:1070 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_function ;
+skos:prefLabel "その他" .

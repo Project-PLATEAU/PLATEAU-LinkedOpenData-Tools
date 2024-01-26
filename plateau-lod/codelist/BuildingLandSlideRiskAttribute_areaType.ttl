@@ -1,0 +1,17 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingLandSlideRiskAttribute_areaType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingLandSlideRiskAttribute_areaType a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:BuildingLandSlideRiskAttribute_areaType ;
+skos:prefLabel "土砂災害警戒区域（指定済）" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:BuildingLandSlideRiskAttribute_areaType ;
+skos:prefLabel "土砂災害特別警戒区域（指定済）" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:BuildingLandSlideRiskAttribute_areaType ;
+skos:prefLabel "土砂災害警戒区域（指定前）" .
+ns:4 a skos:Concept ;
+skos:inScheme ns:BuildingLandSlideRiskAttribute_areaType ;
+skos:prefLabel "土砂災害特別警戒区域（指定前）" .

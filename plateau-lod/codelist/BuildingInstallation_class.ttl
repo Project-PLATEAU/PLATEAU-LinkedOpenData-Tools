@@ -1,0 +1,23 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/BuildingInstallation_class#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:BuildingInstallation_class a skos:ConceptScheme .
+
+ns:1000 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_class ;
+skos:prefLabel "外観の特徴" .
+ns:1020 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_class ;
+skos:prefLabel "廃棄物管理" .
+ns:1030 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_class ;
+skos:prefLabel "維持管理" .
+ns:1040 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_class ;
+skos:prefLabel "通信設備" .
+ns:1050 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_class ;
+skos:prefLabel "保安施設" .
+ns:1060 a skos:Concept ;
+skos:inScheme ns:BuildingInstallation_class ;
+skos:prefLabel "その他" .

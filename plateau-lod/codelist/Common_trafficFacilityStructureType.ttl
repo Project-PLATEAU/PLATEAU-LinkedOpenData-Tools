@@ -1,0 +1,17 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Common_trafficFacilityStructureType#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Common_trafficFacilityStructureType a skos:ConceptScheme .
+
+ns:1 a skos:Concept ;
+skos:inScheme ns:Common_trafficFacilityStructureType ;
+skos:prefLabel "嵩上式" .
+ns:2 a skos:Concept ;
+skos:inScheme ns:Common_trafficFacilityStructureType ;
+skos:prefLabel "地下式" .
+ns:3 a skos:Concept ;
+skos:inScheme ns:Common_trafficFacilityStructureType ;
+skos:prefLabel "掘割式" .
+ns:4 a skos:Concept ;
+skos:inScheme ns:Common_trafficFacilityStructureType ;
+skos:prefLabel "地表式" .

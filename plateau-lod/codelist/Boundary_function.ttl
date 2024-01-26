@@ -1,0 +1,47 @@
+@prefix ns: <https://lod.geospatial.jp/codelists/Boundary_function#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns:Boundary_function a skos:ConceptScheme .
+
+ns:11 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "行政界" .
+ns:21 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "地番界" .
+ns:22 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "現地杭界" .
+ns:23 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "見通し界" .
+ns:24 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "境界未確定" .
+ns:31 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "道路区域（道路法により定められる）" .
+ns:32 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "道路区域（現況）" .
+ns:33 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "河川区域（河川法により定められる）" .
+ns:34 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "河川区域（現況）" .
+ns:35 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "水路界" .
+ns:36 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "鉄道界" .
+ns:37 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "護岸界、河川界、埋立界" .
+ns:38 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "都市公園法に定める公園界" .
+ns:41 a skos:Concept ;
+skos:inScheme ns:Boundary_function ;
+skos:prefLabel "道路中心線" .
