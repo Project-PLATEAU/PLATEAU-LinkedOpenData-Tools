@@ -28,7 +28,7 @@ CityGML形式からJSON-LD形式に変換部分は、指定したフォルダ内
 
 ### PLATEAU Linked Open Data を公開するプログラム
 
-入力ファイルは[CityGML を RDF 変換するプログラム](https://xxxxx.xxxx.xxx)で生成した、建物データと不動産 ID データの JSON-LD を想定しています。
+入力ファイルは、上記「CityGML を RDF 変換するプログラム」で生成した、建物データと不動産 ID データの JSON-LD を想定しています。
 
 1. JSON-LD を Firebase の Firestore（データベース）にアップロード
 2. PLATEAU Linked Open Data を参照解決
@@ -67,6 +67,8 @@ node.js の ver.18 以上が動作すること。
 
 ## 7. 本リポジトリのフォルダ構成
 
+※ 必要に応じて/data ディレクトリは作成してください。
+
 | フォルダ名  | 詳細                                          |
 | ----------- | --------------------------------------------- |
 | gml-to-rdf  | CityGML を RDF 変換するプログラム             |
@@ -102,7 +104,8 @@ node.js の ver.18 以上が動作すること。
 - 本リポジトリについては予告なく変更又は削除をする可能性があります。
 - 本リポジトリの利用により生じた損失及び損害等について、国土交通省はいかなる責任も負わないものとします。
 
-## 10. 参考資料 <!-- 技術検証レポートのURLはアクセンチュアにて記載します。 -->
-
+<!--## 10. 参考資料 <!-- 技術検証レポートのURLはアクセンチュアにて記載します。 -->
+<!-- 
 - 技術検証レポート: https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0030_ver01.pdf
 - PLATEAU Web サイトの Use case ページ「カーボンニュートラル推進支援システム」: https://www.mlit.go.jp/plateau/use-case/uc22-013/
+-->
