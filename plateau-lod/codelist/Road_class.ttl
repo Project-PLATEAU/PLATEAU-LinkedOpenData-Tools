@@ -1,8 +1,0 @@
-@prefix ns: <https://lod.geospatial.jp/codelists/Road_class#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-ns:Road_class a skos:ConceptScheme .
-
-ns:1040 a skos:Concept ;
-skos:inScheme ns:Road_class ;
-skos:prefLabel "road traffic （道路交通）" .

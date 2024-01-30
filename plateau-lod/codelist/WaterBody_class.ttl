@@ -1,8 +1,0 @@
-@prefix ns: <https://lod.geospatial.jp/codelists/WaterBody_class#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-ns:WaterBody_class a skos:ConceptScheme .
-
-ns:1140 a skos:Concept ;
-skos:inScheme ns:WaterBody_class ;
-skos:prefLabel "浸水域（flooded land）" .

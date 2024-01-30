@@ -1,8 +1,0 @@
-@prefix ns: <https://lod.geospatial.jp/codelists/AuxiliaryTrafficArea_function#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-ns:AuxiliaryTrafficArea_function a skos:ConceptScheme .
-
-ns:3000 a skos:Concept ;
-skos:inScheme ns:AuxiliaryTrafficArea_function ;
-skos:prefLabel "島" .
