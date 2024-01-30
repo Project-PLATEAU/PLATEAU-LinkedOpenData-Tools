@@ -3,31 +3,28 @@
 ![概要](./img/index.png) <!-- OSSの対象物のスクリーンショット（画面表示がない場合にはイメージ画像）を貼り付けください -->
 
 ## 1. 概要 <!-- 本リポジトリでOSS化しているソフトウェア・ライブラリについて1文で説明を記載ください -->
-本リポジトリでは、Project PLATEAUの令和4年度のユースケース開発業務の一部であるdt23-03「不動産IDマッチングシステム」について、その成果物である「不動産IDマッチングLinked Open Data環境（PLATEAU Linked Open Data 配信システム）」のソースコードを公開しています。
+本リポジトリは、3D都市モデルの建築物データから属性情報を抽出して、RDF変換するプログラムと、RDFをLinked Open Dataとして公開するプログラムを含みます。建物単位でURIを付与し、URIへのGetリクエストに対して参照解決に対応しています。
 
-「PLATEAU Linked Open Data 配信システム」は、3D都市モデルの建築物データをRDF変換するプログラムと、RDF変換したLinked Open Dataを公開するプログラムで構成されたシステムです。
-
-## 2. 「不動産IDマッチングシステム」について <!-- 「」内にユースケース名称を記載ください。本文は以下のサンプルを参考に記載ください。URLはアクセンチュアにて設定しますので、サンプルそのままでOKです。 -->
-「不動産IDマッチングシステム」は、3D都市モデルを介して不動産IDに紐づけられた様々な建物情報の利活用促進を目指すことを目的として開発しました。
-本システムは、不動産登記及び登記所備付地図からマッチング用の「不動産IDマッチングデータ構築環境」とPLATEAUの3D都市モデルの建築物データに不動産IDを付与する「不動産IDマッチングサービス環境」を実装しています。また、不動産IDが付与された3D都市モデルの建築物データをLinked Open Dataに変換し、Linked Open Dataの参照解決を行う「不動産IDマッチングLinked Open Data環境」を実装しています。
+## 2. 「PLATEAU Linked Open Data 配信システム」について <!-- 「」内にユースケース名称を記載ください。本文は以下のサンプルを参考に記載ください。URLはアクセンチュアにて設定しますので、サンプルそのままでOKです。 -->
+CityGML形式からJSON-LD形式に変換部分は、指定したフォルダ内のXMLファイルを読込、XML構造をパースして予め定義したデータモデル（JSON形式）に変換、建物単位でJSON-LD形式のファイルとして出力保存します。JSON-LD形式のファイルはFirebaseにアップロードされます。参照解決部分はCloudFunctionsで処理しています。建物リソースのURIへのリクエストに応じて、データをロードしてリクエストに応じたRDFの形式に変換して返却します。建物リソースごとの情報をブラウザで確認するために、React.jsで実装したウェブアプリも用意しています。建物リソースのURIへのリクエストはデフォルトでHTMLのビューへリダイレクトされるように設定されています。
 本システムは、一般ユーザ向けのGUIを備えたオープンソースソフトウェアとしてフルスクラッチで開発されています。
-本システムの詳細については[技術検証レポート](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0030_ver01.pdf)を参照してください。
+本システムの詳細については[技術検証レポート](http://xxxx)を参照してください。
 
-## 3. 利用手順
+## 3. 利用手順 <!-- 下記の通り、GitHub Pagesへリンクを記載ください。URLはアクセンチュアにて設定しますので、サンプルそのままでOKです。 -->
 
-本システムの構築手順及び利用手順については[利用チュートリアル](https://r5-plateau-acn.github.io/SolarPotential/)を参照してください。
+本システムの構築手順及び利用手順については[利用チュートリアル](http://xxxx)を参照してください。
 
 ## 4. システム概要
 
 ### CityGML を RDF 変換するプログラム
 
-入力ファイルは PLATEAU 標準製品仕様書準拠の CityGML ファイル（.gml）のうち、建物モデルを想定しています。
+入力ファイルは 「3D都市モデル標準製品仕様書3.4版」準拠の CityGML ファイル（.gml）のうち、建物モデルを想定しています。
 
 1. CityGML を JSON-LD 形式の RDF に変換
 2. JSON-LD を Ntriple 形式の RDF に変換
 3. CodeList ※を Turtle 形式の RDF に変換
 
-※ CodeList については標準製品仕様書の[i-UR 符号化仕様及びコードリスト](https://www.geospatial.jp/iur/)を参照してください。
+※ CodeList については「3D都市モデル標準製品仕様書3.4版」の[i-UR 符号化仕様及びコードリスト](https://www.geospatial.jp/iur/)を参照してください。
 
 ### PLATEAU Linked Open Data を公開するプログラム
 
@@ -45,9 +42,12 @@
 
 | 種別         | 名称    | バージョン                   | 内容                                  |
 | ------------ | ------- | ---------------------------- | ------------------------------------- |
-| ミドルウェア | node.js | 18.0.0 以降                  |                                       |
-| ライブラリ   | xpath   | 最新の安定版を使ってください | node.js で xpath を扱えるようにする   |
-|              | Jsonld  | 最新の安定版を使ってください | node.js で JSON-LD を扱えるようにする |
+| ミドルウェア | [node.js](https://nodejs.org/) | 18.0.0 以降                  |                                       |
+| ライブラリ   | [xpath]() | 最新の安定版を使ってください | node.js で xpath を扱えるようにする   |
+|              | [Jsonld]() | 最新の安定版を使ってください | node.js で JSON-LD を扱えるようにする |
+|              | [fast-xml-parser](https://www.npmjs.com/package/fast-xml-parser)| 4.0.7 | Javascriptで動作するXMLパーサー
+|              | [React.js](https://react.dev/) | 18.2.0 |ユーザーインターフェース構築のための JavaScript ライブラリ
+| データベース | [Virtuoso](https://virtuoso.openlinksw.com/)| 07.20.3238 | RDF Store（RDFに対してSPARQLでクエリできるデータベース、VirtuosoはGeoSPARQLにも対応している）
 
 ### PLATEAU Linked Open Data を公開するプログラム
 
@@ -56,9 +56,9 @@
 | 種別                 | 名称     | バージョン | 内容                                                                                           |
 | -------------------- | -------- | ---------- | ---------------------------------------------------------------------------------------------- |
 | PaaS                 | Firebase |            | Firestore, Hosting, CloudFunctions を使用                                                      |
-| ウェブフレームワーク | React.js | 18.2.0     | ウェブサイトを構築                                                                             |
+| ウェブフレームワーク | [React.js](https://react.dev/)  | 18.2.0     | ウェブサイトを構築                                                                             |
 | ライブラリ           | express  | 4.18.2     | CloudFunctions で http リクエストをルーティング                                                |
-| ミドルウェア         | node.js  | 18         | JSON-LD を Firebase の Firestore にアップロードする機能と、CloudFunctionsCloudFunctions で利用 |
+| ミドルウェア         | [node.js](https://nodejs.org/) | 18         | JSON-LD を Firebase の Firestore にアップロードする機能と、CloudFunctionsCloudFunctions で利用 |
 
 ## 6. 動作環境
 
