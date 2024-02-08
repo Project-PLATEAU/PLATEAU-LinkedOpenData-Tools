@@ -95,8 +95,9 @@ node.js の ver.18 以上が動作すること。
 ## 8. ライセンス
 
 - ソースコード及び関連ドキュメントの著作権は国土交通省に帰属します。
-- ==各種ライブラリのライセンスについては個別に確認してください。==
-- 本ドキュメントは[Project PLATEAU のサイトポリシー](https://www.mlit.go.jp/plateau/site-policy/)（CCBY4.0 及び政府標準利用規約 2.0）に従い提供されています。==ドキュメントはこれだとして、肝心のソースコードのライセンスは？？==
+- 本ソースコードは[Apache License Version 2.0](./LICENSE)に従い提供されています。
+- 本ドキュメントは[Project PLATEAU のサイトポリシー](https://www.mlit.go.jp/plateau/site-policy/)（CCBY4.0 及び政府標準利用規約 2.0）に従い提供されています。
+
 
 ## 9. 注意事項
 
