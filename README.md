@@ -13,7 +13,7 @@ Linked Open Dataとして公開するプログラムは、JSON-LD形式のファ
 
 ## 3. 利用手順
 
-本システムの構築手順及び利用手順については[利用チュートリアル](https://github.com/Project-PLATEAU/PLATEAU-LinkedOpenData-Tools/assets/148931378/09d278a5-2c4d-42ca-b85c-f5f503ddf87a)を参照してください。
+本システムの構築手順及び利用手順については[利用チュートリアル](https://github.com/Project-PLATEAU/PLATEAU-LinkedOpenData-Tools/)を参照してください。
 
 ## 4. システム概要
 
