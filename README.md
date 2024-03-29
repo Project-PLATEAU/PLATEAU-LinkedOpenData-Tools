@@ -1,4 +1,4 @@
-![image](https://github.com/Project-PLATEAU/PLATEAU-LinkedOpenData-Tools/assets/148931378/63784e44-b311-412e-9490-db8d52ebc6ff)
+# PLATEAU Linked Open Data配信システム
 
 ![概要](./img/index.png) 
 
