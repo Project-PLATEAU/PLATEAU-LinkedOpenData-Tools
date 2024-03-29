@@ -1,0 +1,8 @@
+- name: PLATEAU Linked Open Data配信システム
+  href: ../index.md
+- name: 利用を開始する
+  items:
+  - name: CityGMLをRDF変換するプログラム
+    href: rdfMan.md
+  - name: PLATEAU Linked Open Dataを公開するプログラム
+    href: lodMan.md

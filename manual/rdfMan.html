@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>CityGMLをRDF変換するプログラムの利用マニュアル </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="CityGMLをRDF変換するプログラムの利用マニュアル ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../resources/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="citygmlをrdf変換するプログラムの利用マニュアル">CityGMLをRDF変換するプログラムの利用マニュアル</h1>
+
+<h2 id="利用手順">利用手順</h2>
+<h3 id="nodejsをインストール">node.jsをインストール</h3>
+<p>ver.18以上を推奨します。</p>
+<p>※node.jsは各自の環境にあわせてご用意ください。<a href="https://nodejs.org/en">ウェブサイト</a>からパッケージをダウンロードしてインストールすることもできます。</p>
+<h3 id="作業フォルダにプログラムをダウンロード">作業フォルダにプログラムをダウンロード</h3>
+<p>mainブランチのgml-to-rdfフォルダに保存されているファイルを、全て作業フォルダにダウンロードします。ここでは作業フォルダをworkとします。コマンドは全てworkで実行します。</p>
+<h3 id="必要なnodeモジュールをインストール">必要なnodeモジュールをインストール</h3>
+<p><code>$ yarn</code></p>
+<p><code>work/node_modules</code>が作成されモジュールがインストールされます。</p>
+<h3 id="codelistを所定のディレクトリに格納">CodeListを所定のディレクトリに格納</h3>
+<p>コードリストを次のように格納します。</p>
+<p><code>work/data/codelists/*.xml</code></p>
+<p>下記のコードリストは地域名を参照するために必須となっています。</p>
+<p><code>Common_localPublicAuthorities.xml</code></p>
+<p>※CodeListについては、「3D都市モデル標準製品仕様書3.4版」の<a href="https://www.geospatial.jp/iur/">i-UR符号化仕様及びコードリスト</a>を参照してください。</p>
+<h3 id="変換するcitygmlを所定のディレクトリに格納">変換するCityGMLを所定のディレクトリに格納</h3>
+<p>以下のように.gmlファイルを格納します。<code>work/data/gmlFiles/</code>配下には、メッシュIDごと、地域ごとなどの区分でサブディレクトリを作成してください。</p>
+<p><code>work/data/gmlFiles/*/*.gml</code></p>
+<h2 id="データ変換">データ変換</h2>
+<h3 id="コードリストの変換">コードリストの変換</h3>
+<p>あらかじめdataフォルダの下にrdfフォルダを作成してください。</p>
+<p><code>work/data/rdf</code></p>
+<p><code>$ node xmlToTtl.js</code></p>
+<p>以下のように出力されます。</p>
+<p><code>work/data/rdf/*.ttl</code></p>
+<h3 id="gmlデータからjson-ldファイルへ変換">GMLデータからJson-ldファイルへ変換</h3>
+<p><code>$ node gmlToJson_v2.js</code></p>
+<p>以下のように出力されます。建物ごとに建物情報を記したJSON-LDファイルと不動産ID情報を記したJSON-LDファイルがそれぞれ出力されます。</p>
+<p>※ここでxpathモジュールやxmldomモジュールが見つからないエラーが発生する場合があります。その際は、以下のコマンドでモジュールをインストールして下さい。</p>
+<p><code>$ npm install xpath</code></p>
+<p><code>$ npm install xmldom</code></p>
+<p>建物のJSON-LD</p>
+<p><code>work/data/export/json/building/*/*.jsonld</code></p>
+<p>不動産IDのJSON-LD</p>
+<p><code>work/data/export/json/realestateid/*/*.jsonld</code></p>
+<h3 id="json-ldからntripleファイルへ変換">Json-ldからNtripleファイルへ変換</h3>
+<p><code>$ node jsonToNtriple.js</code></p>
+<p>以下のように出力されます。</p>
+<p><code>work/data/export/Ntriple/building/*/*.nt</code>
+<code>work/data/export/Ntriple/realestateid/*/*.nt</code></p>
+<hr>
+<h2 id="rdfストアにデータをロードする">RDFストアにデータをロードする</h2>
+<p>以下は参考情報です。</p>
+<p>ここでは、RDFストアとして、<a href="https://virtuoso.openlinksw.com">Virtuoso</a>を用いて生成したRDFをロードします。</p>
+<h3 id="virtuosoのdockerイメージを入手">Virtuosoのdockerイメージを入手</h3>
+<p>いくつかのイメージが公開されているため、適当なイメージを選んでpullします。</p>
+<pre><code>
+$ docker search virtuoso
+
+NAME                                          DESCRIPTION                                      STARS     OFFICIAL   AUTOMATED
+encoflife/virtuoso                                                                             0                    [OK]
+virtuosolearning/circle-ci-2                  Circle CI 2 build                                0
+tenforce/virtuoso                             Docker for hosting Virtuoso.                     44                   [OK]
+openlink/virtuoso-opensource-7                OpenLink Virtuoso Open Source Edition v7.2, …   10
+dbpedia/virtuoso-sparql-endpoint-quickstart   Loader container that allows the deployment …   0
+askomics/virtuoso                             docker virtuoso, based on alpine                 0                    [OK]
+</code></pre>
+<pre><code>
+$ docker pull openlink/virtuoso-opensource-7
+
+</code></pre>
+<p>Virtuoso用のボリュームを作成します。</p>
+<pre><code>
+$ docker volume create --name main-virtuoso-data
+main-virtuoso-data
+
+</code></pre>
+<p>Dockerイメージを起動します。</p>
+<pre><code>
+$ docker volume ls
+DRIVER              VOLUME NAME
+local               main-virtuoso-data
+$ docker run -d --restart=always --name main-virtuoso \
+    -p 8890:8890 -p 1111:1111 \
+    -e DBA_PASSWORD=dba \
+    -e SPARQL_UPDATE=true \
+    -e DEFAULT_GRAPH=http://www.example.com/graph \
+    -v main-virtuoso-data:/data \
+    -d openlink/virtuoso-opensource-7
+05ddba27a031a5d5bf7952a53e332f72655a3d63412f462747aa7d98a9def4e6
+</code></pre>
+<pre><code>$ docker ps
+CONTAINER ID        IMAGE                                   COMMAND                  CREATED             STATUS              PORTS                                            NAMES
+7f73ea2c9f38        tenforce/virtuoso:1.1.1-virtuoso7.2.4   &quot;/bin/bash /virtuoso.&quot;   15 seconds ago      Up 14 seconds       0.0.0.0:1111-&gt;1111/tcp, 0.0.0.0:8890-&gt;8890/tcp   main-virtuoso
+
+</code></pre>
+<p>起動したら、ブラウザからもアクセスできるようになります。</p>
+<p><code>http://localhost:8890</code></p>
+<p><img src="../resources/virtuoso1.png" alt="Virtuoso Sparql editor"></p>
+<h3 id="データをロードする">データをロードする</h3>
+<p>virtuosoでは、isqlを使ってデータをバルクロードできます。</p>
+<p>コンテナ側でアップロードを許可するディレクトリを追記しておきます。</p>
+<pre><code># virtuoso.ini
+
+DirsAllowed              = ., ../vad, /usr/share/proj, ../database/Ntriple
+
+</code></pre>
+<p>設定したディレクトリにファイルをコピーします。</p>
+<pre><code>
+$ docker cp /Users/iwao/repositories/gml-to-rdf/data/export/Ntriple/building/22221 05ddba27a031a5d5bf7952a53e332f72655a3d63412f462747aa7d98a9def4e6:/database/Ntriple
+
+</code></pre>
+<p>isqlを起動します。</p>
+<pre><code>$ docker exec -it 05ddba27a031a5d5bf7952a53e332f72655a3d63412f462747aa7d98a9def4e6 isql
+
+</code></pre>
+<p>ファイルをロードします。</p>
+<pre><code>
+SQL&gt; ld_dir_all ('../database/Ntriple','\*.nt', 'https://lod.geospatial.jp/resource/graph/v1/');
+SQL&gt; rdf_loader_run();
+
+</code></pre>
+<p>ロードが完了したら、SPARQLをリクエストします。</p>
+<p><code>http://localhost:8890/sparql/</code></p>
+<p><img src="../resources/virtuoso2.png" alt="Virtuoso Sparql editor"></p>
+<p>試行的に以下のクエリを入力して、&quot;Execute Query&quot;ボタンを押下します。</p>
+<pre><code>
+select distinct ?s where {
+    ?s a &lt;https://lod.geospatial.jp/vocabulary/pv#Building&gt; .
+} LIMIT 100
+
+</code></pre>
+<p><img src="../resources/virtuoso3.png" alt="Virtuoso Sparql editor"></p>
+<p>結果が取得できれば成功です。</p>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
