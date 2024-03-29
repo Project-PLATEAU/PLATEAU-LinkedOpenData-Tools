@@ -1,4 +1,4 @@
-
+![image](https://github.com/Project-PLATEAU/PLATEAU-LinkedOpenData-Tools/assets/148931378/63784e44-b311-412e-9490-db8d52ebc6ff)
 
 ![概要](./img/index.png) 
 
@@ -13,7 +13,7 @@ Linked Open Dataとして公開するプログラムは、JSON-LD形式のファ
 
 ## 3. 利用手順
 
-本システムの構築手順及び利用手順については[利用チュートリアル](http://xxxx)を参照してください。
+本システムの構築手順及び利用手順については[利用チュートリアル](https://github.com/Project-PLATEAU/PLATEAU-LinkedOpenData-Tools/assets/148931378/09d278a5-2c4d-42ca-b85c-f5f503ddf87a)を参照してください。
 
 ## 4. システム概要
 
@@ -104,5 +104,5 @@ node.jsのver.18以上が動作することが必要です。各種パッケー�
 - 本リポジトリの利用により生じた損失及び損害等について、国土交通省はいかなる責任も負わないものとします。
 
 ## 10. 参考資料
-- 技術検証レポート: http://XXXX
+- 技術検証レポート: https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0068_ver01.pdf
 - PLATEAU Web サイトの Use Case ページ「3D都市モデル・不動産IDマッチングシステム」: https://www.mlit.go.jp/plateau/use-case/dt23-03/
